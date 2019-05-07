@@ -1,2 +1,2 @@
 # how-to-start
-ALPHA is here
+Narox is here
