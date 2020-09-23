@@ -12,7 +12,7 @@ setInterval(() => {
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const fs = require("fs");
-const config = require("./data/config.json");
+const config = require("./config.json");
 
 let prefix = config.prefix;
 let devs = config.devs;
