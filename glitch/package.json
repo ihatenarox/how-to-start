@@ -1,0 +1,39 @@
+{
+  "name": "YATO",
+  "version": "1.0.0",
+  "description": "discord bot",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YATO0001/how-to-start.git"
+  },
+  "author": "YATO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YATO0001/how-to-start/LICENSE"
+  },
+  "homepage": "https://github.com/YATO0001/how-to-start/README.md",
+  "dependencies": {
+    "discord.js": "^11.6.2",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "request": "^2.88.2",
+    "hastebin-gen": "^2.0.5",
+    "moment": "^2.25.0",
+    "string-similarity": "^4.0.0",
+    "canvas-constructor": "^3.2.0",
+    "canvas": "^2.6.1",
+    "moment-duration-format": "^2.2.2",
+    "ytdl-core": "^2.1.1",
+    "spotify-web-api-node": "^4.0.0",
+    "ffmpeg": "^0.0.4",
+    "discord-player": "^1.4.1",
+    "node-opus": "^0.3.3",
+    "simple-youtube-api": "^5.2.1",
+    "mongoose": "^5.9.9",
+    "generate-password": "^1.5.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
