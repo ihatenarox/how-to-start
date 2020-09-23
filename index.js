@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const botconfig = require("./botconfig.json");
+const config = require("./config.json");
 const fs = require("fs");
-let prefix = botconfig.prefix
-let devs = botconfig.devs;
+let prefix = config.prefix
+let devs = config.devs;
 
 
 
@@ -58,4 +58,4 @@ client.on('ready', () => {
 
 
 
-client.login(botconfig.token);
+client.login(config.token);
